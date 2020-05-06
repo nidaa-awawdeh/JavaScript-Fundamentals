@@ -25,3 +25,5 @@ console.log("Pretty sure you are learning....");<br>
  <p>  it print keep it up! coz isLearning true not false if false print else if</p>
 
 2- Why do we not need to specify if(isLearning === true)? Why does if(isLearning) work on its own?<br> we can let the if statement turn the expression into a value that is true or false. True will evaluate into a truthy value<br>
+ 
+![](vscode-remote://wsl%2Bubuntu/mnt/c/Users/Nidaa/Desktop/nidaaplan/w1/JavaScript-Fundamentals/part2.png) <br>

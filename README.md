@@ -26,4 +26,46 @@ console.log("Pretty sure you are learning....");<br>
 
 2- Why do we not need to specify if(isLearning === true)? Why does if(isLearning) work on its own?<br> we can let the if statement turn the expression into a value that is true or false. True will evaluate into a truthy value<br>
  
-![](vscode-remote://wsl%2Bubuntu/mnt/c/Users/Nidaa/Desktop/nidaaplan/w1/JavaScript-Fundamentals/part2.png) <br>
+ 
+   ```ruby
+var firstVariable;
+var secondVariable = "";
+var thirdVariable = 1;
+var secretMessage = "Shh!";
+
+if(firstVariable){
+    console.log("first");
+} else if(firstVariable || secondVariable){
+    console.log("second");
+} else if(firstVariable || thirdVariable){
+    console.log("third");
+} else {
+    console.log("fourth");
+}
+````
+
+         <hr>
+    
+**What should the above code console.log? Why?<br>
+   **third**
+ **What is the value of firstVariable when it is initialized?<br>
+ **The value of firstVariable is undefined. Variables that are not assigned to any value are assigned to the value undefined**
+ **Is the value of firstVariable a "truthy" value? Why?<br> 
+  No, undefined is a falsey value<br>
+ **Is the value of secondVariable a "truthy" value? Why?<br>
+ No, empty strings are falsey values as well <br>
+
+ **Is the value of thirdVariable a "truthy" value? <br> 
+ Yes, all numbers except for 0 are truthy 
+
+  
+   ### Part 3
+
+ ```ruby
+if(Math.random(20) > .5){
+	console.log("Over 0.5");
+} else {
+	console.log("Under 0.5");
+}
+```
+ 

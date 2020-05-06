@@ -9,3 +9,15 @@
 7-true || false; <br> **true**
 
 <hr>
+
+ #### Part 2
+
+ <p> 
+         var isLearning = true;
+              if(isLearning){
+                console.log("Keep it up!");
+         } else {
+              console.log("Pretty sure you are learning....");
+}</p>
+
+ <p>  it print keep it up! coz isLearning true not false if false print else if</p>

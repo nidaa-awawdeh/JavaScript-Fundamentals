@@ -68,4 +68,10 @@ if(Math.random(20) > .5){
 	console.log("Under 0.5");
 }
 ```
- 
+ #### JavaScript History and Setup
+ #### Exercises
+1-What is the difference between JavaScript and ECMAScript?<br>
+2-Who is Brendan Eich?<br>
+3-How do you hide and show the Chrome console?<br>
+4-Create a simple page with a script tag. Inside of the script tag declare a couple of variables and then log their values to the console.
+5-Research prompt and confirm - what do they do? <br>

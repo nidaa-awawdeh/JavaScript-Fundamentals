@@ -68,10 +68,15 @@ if(Math.random(20) > .5){
 	console.log("Under 0.5");
 }
 ```
+<hr> 
+
  #### JavaScript History and Setup
  #### Exercises
 1-What is the difference between JavaScript and ECMAScript?<br>
+ECMAScript is a standard. JavaScript is an implementation of that standard.<br>
 2-Who is Brendan Eich?<br>
+person who crated javascrint in 10 days <br>
 3-How do you hide and show the Chrome console?<br>
-4-Create a simple page with a script tag. Inside of the script tag declare a couple of variables and then log their values to the console.
+ctrl+shift+j <br>
+4-Create a simple page with a script tag. Inside of the script tag declare a couple of variables and then log their values to the console. <br>
 5-Research prompt and confirm - what do they do? <br>
